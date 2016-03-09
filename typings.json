@@ -2,7 +2,5 @@
   "name": "jasmine-node-promise-matchers",
   "main": "jasmine-node-promise-matchers.d.ts",
   "version": "0.0.3",
-  "ambientDevDependencies": {
-    "jasmine": "registry:dt/jasmine#2.2.0+20160303225035"
-  }
+  "ambient": true
 }

@@ -6,7 +6,3 @@ declare module jasmine {
     toRejectWith(expected: any, done: () => void): boolean;
   }
 }
-
-declare var jasmineNodePromiseMatchers: jasmine.Matchers;
-
-export = jasmineNodePromiseMatchers;
